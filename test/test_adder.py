@@ -18,10 +18,7 @@ def test_add_str():
 
 
 @pytest.mark.set1
-@pytest.mark.parametrize(
-    "a, b, r",
-    [(1, 9, 10), (2, 8, 10), (3, 7, 10), ]
-)
+@pytest.mark.parametrize("a, b, r", [(1, 9, 10), (2, 8, 10), (3, 7, 10)])
 def test_add_params(a, b, r):
     assert Adder.add_num(a, b) == r
 

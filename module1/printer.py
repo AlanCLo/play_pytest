@@ -1,5 +1,3 @@
-
-
 class Printer:
     def print_num(stuff: int):
         print(f"Number: {stuff}")

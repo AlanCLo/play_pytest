@@ -11,5 +11,6 @@ def main():
     big_str = Adder.add_str("This ", "is a big string")
     Printer.print_str(big_str)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

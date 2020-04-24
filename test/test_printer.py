@@ -10,4 +10,4 @@ def test_print_num():
 
 @pytest.mark.set2
 def test_print():
-    Printer.print_str('hello world')
+    Printer.print_str("hello world")
